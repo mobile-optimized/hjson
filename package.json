@@ -1,7 +1,7 @@
 {
-  "name": "hjson",
-  "description": "JSON for Humans, allows comments and is less error prone.",
-  "main": "./lib/hjson.js",
+  "name": "@mobile/hjson",
+  "description": "JSON for Humans, allows comments and is less error prone. (mobile optimized)",
+  "main": "./lib/hjson.min.js",
   "author": "Christian Zangl",
   "version": "1.6.3",
   "keywords": [
@@ -13,11 +13,7 @@
     "serializer",
     "human"
   ],
-  "bin": {
-    "hjson": "./bin/hjson"
-  },
   "scripts": {
-    "test": "node ./test/test.js",
     "lint": "jshint bin/hjson lib/hjson.js",
     "min": "node node_modules/uglify-js/bin/uglifyjs lib/hjson.js --comments -c -m -o lib/hjson.min.js"
   },
