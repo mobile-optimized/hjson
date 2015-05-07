@@ -19,6 +19,7 @@ coverage
 *.user
 *.tmp
 bin
+.bin
 Bin
 obj
 dirtyflag.txt
