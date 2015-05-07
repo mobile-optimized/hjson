@@ -1,7 +1,7 @@
 {
   "name": "@mobile/hjson",
   "description": "JSON for Humans, allows comments and is less error prone. (mobile optimized)",
-  "main": "./lib/hjson.min.js",
+  "main": "./lib/hjson.min.js", 
   "author": "Christian Zangl",
   "version": "1.6.4",
   "keywords": [
