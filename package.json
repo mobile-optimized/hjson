@@ -3,7 +3,7 @@
   "description": "JSON for Humans, allows comments and is less error prone. (mobile optimized)",
   "main": "./lib/hjson.min.js",
   "author": "Christian Zangl",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "keywords": [
     "json",
     "comments",
@@ -32,6 +32,6 @@
     }
   ],
   "devDependencies": {
-    "uglify-js": "^2.4.16" 
+    "uglify-js": "^2.4.16"
   }
 }
